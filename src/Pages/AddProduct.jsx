@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import { useState } from "react";
 import axios from "axios";
 
 const AddProduct = () => {
@@ -21,7 +21,8 @@ const AddProduct = () => {
       await axios.post(api, values);
       setMessage("Product added successfully!");
       setValues({ name: "", price: "" });
-    } catch (err) {
+    } catch (error) {
+      console.error(error);
       setError("An error occurred while adding the product.");
     }
   };

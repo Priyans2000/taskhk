@@ -22,18 +22,10 @@ const Menubar = () => {
         </li>
         <li className="nav-item">
           <Link
-            to="/addproduct"
-            className="nav-link text-white d-flex align-items-center gap-2 hover-effect"
-          >
-            <i className="bi bi-plus-circle"></i> Add Products
-          </Link>
-        </li>
-        <li className="nav-item">
-          <Link
             to="/display"
             className="nav-link text-white d-flex align-items-center gap-2 hover-effect"
           >
-            <i className="bi bi-grid"></i> Display
+            <i className="bi bi-house-door"></i> Display
           </Link>
         </li>
       </ul>
