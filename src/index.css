@@ -1,0 +1,205 @@
+.sidebar-link:hover {
+    background-color: rgba(1, 23, 48, 0.099); 
+    text-decoration: none; 
+  border: 2px solid white;
+  }
+  .hover-bg-light:hover {
+    background-color: rgba(255, 255, 255, 0.121); 
+  }
+  
+.hover-effect {
+  transition: all 0.3s ease;
+  border-radius: 8px;
+  padding: 12px 15px !important;
+}
+
+.hover-effect:hover {
+  background-color: rgba(255, 255, 255, 0.1);
+  transform: translateX(5px);
+}
+
+/* Add smooth transitions for all elements */
+* {
+  transition: all 0.2s ease;
+}
+  
+
+/* //==================== Login.css ====================// */
+/* Container for the entire page */
+.login-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f4f4f9;
+    margin: 0;
+  }
+  
+  /* Box styling for the login form */
+  .login-box {
+    padding: 20px;
+    width: 350px;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(220, 46, 46, 0.1);
+    background-color: #ffffff;
+  }
+  
+  /* Title styling */
+  .login-title {
+    text-align: center;
+    margin-bottom: 20px;
+    color: #333333;
+    font-size: 24px;
+    font-weight: bold;
+  }
+  
+  /* Styling for form groups */
+  .form-group {
+    margin-bottom: 15px;
+  }
+  
+  /* Labels */
+  .form-label {
+    display: block;
+    margin-bottom: 5px;
+    font-size: 14px;
+    color: #555555;
+  }
+  
+  /* Input fields */
+  .form-input {
+    width: 100%;
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #dddddd;
+    font-size: 14px;
+    box-sizing: border-box;
+  }
+  
+  /* Button */
+  .login-button {
+    width: 100%;
+    padding: 10px;
+    border-radius: 5px;
+    border: none;
+    background-color: #ff3d3d;
+    color: #ffffff;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .login-button:hover {
+    background-color: #0056b3;
+  }
+  .h5{
+    font-size: 14px;
+    color: #555555; 
+    text-align: center;         
+  }
+  /* ================addproduct.css ================ */
+  /* Container for the entire page */
+.add-product-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #eaf2f8;
+    margin: 0;
+    padding: 0;
+  }
+  
+  /* Box for the form */
+  .add-product-box {
+    background-color: #ffffff;
+    border-radius: 12px;
+    box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    max-width: 600px;
+    padding: 20px 30px;
+  }
+  
+  /* Title of the form */
+  .add-product-title {
+    text-align: center;
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 20px;
+    color: #2c3e50;
+  }
+  
+  /* Styling for form groups */
+  .form-group {
+    margin-bottom: 20px;
+  }
+  
+  /* Labels */
+  .form-group label {
+    display: block;
+    font-size: 14px;
+    font-weight: 600;
+    color: #34495e;
+    margin-bottom: 5px;
+  }
+  
+  /* Input fields */
+  .form-input {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #bdc3c7;
+    border-radius: 8px;
+    font-size: 14px;
+    outline: none;
+    transition: border 0.3s ease-in-out;
+  }
+  
+  .form-input:focus {
+    border-color: #3498db;
+  }
+  
+  /* Submit button container */
+  .form-button-container {
+    text-align: center;
+  }
+  
+  /* Submit button */
+  .form-submit-button {
+    background-color: #3498db;
+    color: #ffffff;
+    padding: 10px 20px;
+    font-size: 16px;
+    font-weight: bold;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background-color 0.3s ease-in-out;
+    width: 100%;
+  }
+  
+  .form-submit-button:hover {
+    background-color: #2e86c1;
+  }
+  /* ================Footer.css ================ */
+/* Footer container with red background */
+.footer-container {
+    background-color: rgb(254, 51, 51);
+    padding: 10px 0;
+    color: white;
+    text-align: center;
+    margin-top: 20px;
+  }
+  
+  /* Divider styling */
+  .footer-divider {
+    border-color: white;
+    margin: 0 auto 10px auto;
+    width: 80%;
+  }
+  
+  /* Text styling */
+  .footer-text {
+    margin: 0;
+    font-size: 14px;
+    font-weight: bold;
+  }
+  
