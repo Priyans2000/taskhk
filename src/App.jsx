@@ -4,7 +4,7 @@ import AddProduct from "./Pages/AddProduct";
 import Display from "./Pages/display";
 
 import Layout from "./Layout";
-import Login from "./components/Login";
+import Login from "./Pages/Login";
 
 
 const isAuthenticated = () => {
